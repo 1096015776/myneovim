@@ -23,6 +23,11 @@ local mappings = {
   },
   ["g"] = { '<cmd>lua require("telescope.builtin").live_grep({no_ignore=false,hidden=true})<cr>', "Find Text" },
   ['z']={'<cmd>ZenMode<cr>','Zen Mode'},
+  t = {
+    ['a'] = { '<cmd>ToggleAlternate<CR>', 'switch' },
+    ['t'] = { '<cmd>lua require("FTerm").toggle()<CR>', 'term'},
+    ['g'] = { '<cmd>LazyGit<CR>', 'git' }
+  },
 
   p = {
     name = "Packer",

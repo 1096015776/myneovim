@@ -30,7 +30,7 @@ require ('FTerm').setup({
     },
 })
 
-vim.keymap.set('n', '<leader>ta', '<Cmd>ToggleAlternate<CR>')
-vim.keymap.set('n', '<leader>tt', '<Cmd>lua require("FTerm").toggle()<CR>')
-vim.keymap.set('t', 'jk', '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>')
+-- vim.keymap.set('n', '<leader>ta', '<Cmd>ToggleAlternate<CR>')
+-- vim.keymap.set('n', '<leader>tt', '<Cmd>lua require("FTerm").toggle()<CR>')
+vim.keymap.set('t', '<c-[>', '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>')
 
