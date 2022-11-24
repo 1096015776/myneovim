@@ -33,7 +33,7 @@ require('packer').startup(function(use)
   -- format
   use 'nvim-lua/plenary.nvim'
   use 'jose-elias-alvarez/null-ls.nvim'
-  use 'jose-elias-alvarez/typescript.nvim'
+  -- use 'jose-elias-alvarez/typescript.nvim'
 
   -- cmp
   use 'onsails/lspkind-nvim'

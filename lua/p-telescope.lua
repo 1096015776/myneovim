@@ -5,7 +5,17 @@ require('telescope').setup {
     prompt_prefix = " ",
     selection_caret = " ",
     path_display = { "smart" },
-
+    file_ignore_patterns = {
+      'public',
+      'dist',
+      '.git',
+      'node_modules',
+      '%.min.js',
+      '%.min.css',
+      '%.svg',
+      '%.png',
+      '%.ico',
+    },
     mappings = {
       i = {
         ["<esc>"] = actions.close,

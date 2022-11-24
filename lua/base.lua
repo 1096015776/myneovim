@@ -10,6 +10,18 @@ vim.opt.sidescrolloff = 5
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
+vim.opt.grepprg = 'rg --ignore-case --vimgrep'
+vim.opt.grepformat = '%f:%l:%c:%m,%f:%l:%m'
+-- vim.opt.path = '**'
+-- -- Ignore some folders and files with find
+-- vim.opt.wildignore = {
+--   '**/node_modules/**',
+--   '**/coverage/**',
+--   '**/.idea/**',
+--   '**/.git/**',
+--   '**/.nuxt/**',
+-- }
+
 
 vim.opt.mouse = "a"
 vim.opt.clipboard:append ("unnamedplus")
