@@ -1,5 +1,7 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.hidden = true -- Buffer switching without saving
+
 
 vim.scriptencoding = "utf-8"
 vim.opt.encoding = "utf-8"

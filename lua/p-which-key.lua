@@ -26,7 +26,8 @@ local mappings = {
   t = {
     ['a'] = { '<cmd>ToggleAlternate<CR>', 'switch' },
     ['t'] = { '<cmd>lua require("FTerm").toggle()<CR>', 'term'},
-    ['g'] = { '<cmd>LazyGit<CR>', 'git' }
+    ['g'] = { '<cmd>LazyGit<CR>', 'git' },
+    ['p'] = { '<cmd>Telescope projects<CR>', 'project' }
   },
 
   p = {

@@ -34,3 +34,5 @@ require('telescope').setup {
 }
 
 
+--extension
+require('telescope').load_extension('projects')
